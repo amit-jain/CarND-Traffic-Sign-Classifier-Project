@@ -97,8 +97,8 @@ The code for training the model is located in the fourteenth cell of the ipython
 
 To train the model, I used AdamOptimizer since it converges faster with less tuning because it uses momentum with decay and with the following hyperparameter settings:
 * batch size 100
-* number of epochs 75
-* learning rate 0.0008
+* number of epochs 60
+* learning rate 0.0009
 
 ####5. Describe the approach taken for finding a solution. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
